@@ -1,0 +1,7 @@
+{
+  "distribution": "firewalld-zone-audit",
+  "package": "firewalld_zone_audit",
+  "command": "firewalld-zone-audit",
+  "license": "MIT",
+  "description": "Zone XML and service exposure snapshot audit"
+}

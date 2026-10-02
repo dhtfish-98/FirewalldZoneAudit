@@ -1,0 +1,8 @@
+{
+  "zones": {
+    "public": "<zone target=\"ACCEPT\"><interface name=\"eth0\"/></zone>"
+  },
+  "active_zones": [
+    "public"
+  ]
+}

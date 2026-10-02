@@ -1,0 +1,14 @@
+{
+  "project": "FirewalldZoneAudit",
+  "status": "PASS",
+  "test_count": 12,
+  "wheel": "firewalld_zone_audit-0.1.0-py3-none-any.whl",
+  "wheel_sha256": "d66a39e9cafbe2c6e9cdc2c45cadbfdcb9122bbc369781f104da178b8b04e98e",
+  "verification": "Local supported and malformed input tests, wheel build, separate install, imported package origin and CLI checks",
+  "reproduction": [
+    "python -m pip install .",
+    "python -m unittest discover -s tests -v",
+    "python -m pip wheel --no-deps --wheel-dir artifacts ."
+  ],
+  "limits": "Point-in-time engineering evidence only; CVP qualification and approval remain OPEN"
+}
