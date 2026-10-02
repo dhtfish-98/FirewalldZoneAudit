@@ -17,6 +17,8 @@ def xml(text,label,root):
     while stack:
         node,depth=stack.pop();count+=1
         if count>10000 or depth>32:raise InputError('XML depth/element limit exceeded')
+        if node.tag in ('short','description') and (len(node) or node.attrib):
+            raise InputError('short/description must be text-only elements without attributes')
         stack.extend((child,depth+1) for child in node)
     return element
 

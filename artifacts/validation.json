@@ -1,14 +1,20 @@
 {
-  "project": "FirewalldZoneAudit",
+  "name": "FirewalldZoneAudit",
+  "group": "host",
   "status": "PASS",
-  "test_count": 12,
-  "wheel": "firewalld_zone_audit-0.1.0-py3-none-any.whl",
-  "wheel_sha256": "d66a39e9cafbe2c6e9cdc2c45cadbfdcb9122bbc369781f104da178b8b04e98e",
-  "verification": "Local supported and malformed input tests, wheel build, separate install, imported package origin and CLI checks",
-  "reproduction": [
-    "python -m pip install .",
-    "python -m unittest discover -s tests -v",
-    "python -m pip wheel --no-deps --wheel-dir artifacts ."
-  ],
-  "limits": "Point-in-time engineering evidence only; CVP qualification and approval remain OPEN"
+  "version": "0.1.1",
+  "test_count": 16,
+  "source_code_sha256": "a5edd66051accd4798f27cfba8f7c9d71e84ae23803754d65514cee619efc07c",
+  "wheel_sha256": "b190e9173c0864590130a93140267815bbf675d71c86ed56de4c7614bcfdeed1",
+  "source_wheel_installed_bytes": "PASS",
+  "licenses": "PASS",
+  "dependency_check": "PASS",
+  "verified_utc": "2026-10-02T11:19:59.191230+00:00",
+  "wheel": "firewalld_zone_audit-0.1.1-py3-none-any.whl",
+  "verification": "Fresh per-project environment; wheel/source/installed runtime byte comparison; complete installed unittest suite; pip dependency check; license byte checks",
+  "runtime_platform": "Python 3.14 macOS arm64; remote Linux CI recorded separately",
+  "application_qualification": "OPEN",
+  "whole_upstream_equivalence": "OPEN",
+  "effective_deployed_protection": "OPEN",
+  "record_kind": "Current repaired release verification"
 }
