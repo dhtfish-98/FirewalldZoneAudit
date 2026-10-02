@@ -1,3 +1,5 @@
+# Author: dhtfish98
+# Copyright (c) 2026 dhtfish98
 import unittest
 from firewalld_zone_audit import analyze
 from firewalld_zone_audit.common import InputError

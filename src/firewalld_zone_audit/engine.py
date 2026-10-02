@@ -1,3 +1,5 @@
+# Author: dhtfish98
+# Copyright (c) 2026 dhtfish98
 """Bounded offline zone/service XML structure and exposure review."""
 import ipaddress
 import re

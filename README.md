@@ -1,5 +1,9 @@
 # FirewalldZoneAudit
 
+Version **0.1.2**.
+
+New implementation author: **dhtfish98**. Copyright (c) 2026 dhtfish98 applies to the new implementation code. Upstream policy data, original notices and source references retain their original attribution.
+
 Zone XML and service exposure snapshot audit. Complete independent **new scope**, not the whole upstream system rewritten.
 
 Input: `{"zones":{"public":"<zone target=\"DROP\"><interface name=\"eth0\"/></zone>"},"services":{},"active_zones":["public"]}`. All supplied zones and referenced service definitions are inspected. XML DTD/entities, malformed roots, hidden leaf children and deep/huge trees are rejected. Checks cover explicit restrictive default targets, declared active zone coverage, interface/source bindings, service references, valid port bounds/protocols, duplicates, broad ranges and exposure declarations. Rich rules, forwarding/NAT, ipsets/MAC scope, module/protocol/helper services, implicit targets and uncertain reachability are OPEN. A closed DROP zone bound to an interface can PASS this static scope; a service opening remains OPEN for source/topology review. Supplied names do not prove live active zones or runtime isolation.
