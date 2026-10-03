@@ -1,0 +1,35 @@
+{
+  "schema": "project-build-layout.v1",
+  "project": "FirewalldZoneAudit",
+  "author": "dhtfish98",
+  "kind": "python-wheel",
+  "base_public_commit": "6fe7eed46bf5a503c60987afcf6b51262909d7e3",
+  "restored_inputs": [
+    {
+      "original": "COPYRIGHT.md",
+      "stored": "项目文档/COPYRIGHT.md",
+      "sha256": "0989a74acaf06c56e82a734d27342f0bdf47258b708e88f57de464d95c094502"
+    },
+    {
+      "original": "LICENSE",
+      "stored": "项目文档/LICENSE",
+      "sha256": "de926d6c22d9e061af6158b0f23146ce036bfb2a562f2f406acec2dc4bd8b298"
+    },
+    {
+      "original": "ORIGIN.md",
+      "stored": "项目文档/ORIGIN.md",
+      "sha256": "84dfea405860128a83048f52ab78932e9a52423da2f0ee722d15f6e8b610be9b"
+    },
+    {
+      "original": "README.md",
+      "stored": "项目文档/README.md",
+      "sha256": "fa6dc34d25ed105771c136d85618f67bec19d72b61c58f26e9a82c56b15c100e"
+    },
+    {
+      "original": "VALIDATION.md",
+      "stored": "项目文档/VALIDATION.md",
+      "sha256": "01f83a31466899e359c71a8be831894e76c06918bb091ff2dba70358813fa7cb"
+    }
+  ],
+  "platform_entries": []
+}
