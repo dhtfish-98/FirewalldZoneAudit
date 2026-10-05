@@ -4,6 +4,6 @@
   "command": "firewalld-zone-audit",
   "license": "MIT",
   "description": "Zone XML and service exposure snapshot audit",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "dhtfish98"
 }
